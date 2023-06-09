@@ -1,8 +1,5 @@
 import Providers from "@/hooks/Providers";
 import "./globals.css";
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({ weight: "400" });
 
 export const metadata = {
   title: "todo",
@@ -16,7 +13,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body>
         <Providers>{children}</Providers>
       </body>
     </html>
