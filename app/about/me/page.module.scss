@@ -1,0 +1,14 @@
+.header{
+	@apply text-center text-5xl
+}
+.block{
+	ul li{
+		@apply	text-xl;
+		}
+		a{
+			@apply text-cyan-800 text-2xl bg-purple-100
+		}
+}
+.header_slaves{
+	@apply text-2xl mt-5 ;
+}

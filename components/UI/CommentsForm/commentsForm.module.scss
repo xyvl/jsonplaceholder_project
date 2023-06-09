@@ -1,0 +1,12 @@
+.main {
+  @apply flex mt-3;
+}
+.text {
+  @apply flex flex-col pl-5 items-start;
+}
+.title {
+  @apply text-2xl;
+}
+.body {
+  @apply text-base;
+}

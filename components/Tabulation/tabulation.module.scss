@@ -1,0 +1,10 @@
+.main{
+	@apply flex justify-center gap-2;
+}
+
+.block{
+	@apply bg-neutral-800 text-white text-2xl p-5 w-16 h-16 text-center cursor-pointer;
+}
+.active{
+	@apply bg-red-800;
+}

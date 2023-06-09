@@ -1,0 +1,18 @@
+.form {
+  @apply flex my-5;
+}
+.search {
+  @apply outline-1 outline-slate-800 outline w-1/2 py-2 px-1 text-xl;
+  &:focus-visible {
+    @apply rounded-none outline-4;
+  }
+}
+.btn {
+  @apply bg-slate-800 cursor-pointer w-1/4 text-white text-xl;
+}
+.select {
+  @apply outline-1 outline-slate-800 outline ml-auto;
+  &:focus-visible {
+		@apply rounded-none outline-4;
+  }
+}

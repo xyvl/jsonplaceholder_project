@@ -1,0 +1,6 @@
+.logo {
+  @apply max-w-12 max-h-12 mt-2;
+  > img {
+    @apply rounded-full;
+  }
+}

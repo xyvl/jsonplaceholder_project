@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply m-0 p-0 box-border
+}
+.wrapper{
+  @apply max-w-7xl m-auto
+}
+ul{
+  @apply list-disc ml-10
+}
