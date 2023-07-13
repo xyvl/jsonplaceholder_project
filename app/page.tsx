@@ -15,6 +15,7 @@ interface IPostsArray {
 }
 
 export default function Home() {
+  console.log("hi")
   const [value, setValue] = useState<number>(1);
   const dispatch = customDispatch();
   const loading = customSelector((state) => state.allPosts);
